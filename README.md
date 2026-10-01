@@ -156,12 +156,3 @@ learnrush/
 
 All learning statistics, XP, streaks, unlocked achievements, and quiz history are stored **exclusively in your local browser** via `localStorage` under the `learnrush:v1` key. No personal data is ever transmitted to an external server. You can wipe all saved data at any time using the **Reset Progress** button in the Settings menu or on the Progress page.
 
----
-
-##🎙️ Voice-Driven Development
-
-**LearnRush** was designed and built through a voice-driven development workflow combining **Wispr Flow** and **Google Antigravity** (an agentic coding IDE):
-
-1. **Natural Voice Specification:** Product requirements, visual design tokens, data models, and edge-case rules were dictated naturally using Wispr Flow rather than manually typing boilerplate code.
-2. **Autonomous Agentic Execution:** Google Antigravity translated the specification into an structured 16-phase implementation plan, scaffolded the Vite + React + Tailwind project, authored the 80-question knowledge bank, and wired up the state and persistence layers.
-3. **Iterative Voice Refinement & Browser Verification:** Spoken follow-up prompts guided end-to-end browser verification across desktop (`1440px`) and mobile (`390px`) viewports, validating accessibility, animations, and edge-case resilience.
