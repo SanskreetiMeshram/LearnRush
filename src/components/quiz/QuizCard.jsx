@@ -13,6 +13,7 @@ import { getSubjectByParam } from '../../data/subjects.js';
 import ProgressBar from '../ui/ProgressBar.jsx';
 import AnswerOption from './AnswerOption.jsx';
 import FeedbackPanel from './FeedbackPanel.jsx';
+import VoiceAssistant from './VoiceAssistant.jsx';
 
 const ICON_MAP = {
   Calculator,
@@ -149,6 +150,22 @@ export default function QuizCard({
           height="h-3"
           color="bg-gradient-to-r from-blue-500 to-violet-500"
           animate={false}
+        />
+      </div>
+
+      {/* Voice-to-Voice Assistant Powered by Whispr Flow */}
+      <div className="mt-5">
+        <VoiceAssistant
+          question={question}
+          currentIndex={currentIndex}
+          totalQuestions={totalQuestions}
+          isAnswered={isAnswered}
+          isCorrect={isCorrect}
+          correctOptionText={correctOptionText}
+          explanation={question.explanation}
+          onSelectOption={onSelectOption}
+          onNext={onNext}
+          referralUrl="https://wisprflow.ai/r?SANSKREETI1"
         />
       </div>
 

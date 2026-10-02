@@ -9,6 +9,7 @@ import {
   Settings,
   RotateCcw,
   Sparkles,
+  Mic,
 } from 'lucide-react';
 import { useProgress } from '../../context/ProgressContext.jsx';
 import ConfirmDialog from '../ui/ConfirmDialog.jsx';
@@ -135,6 +136,23 @@ export default function Sidebar() {
               </button>
             </div>
           )}
+
+          {/* Whispr Flow Voice-to-Voice Badge */}
+          <a
+            href="https://wisprflow.ai/r?SANSKREETI1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mb-3 block p-3 rounded-2xl bg-gradient-to-r from-violet-50 to-indigo-50 border border-violet-200/80 hover:border-violet-300 transition-all group"
+            title="Try Whispr Flow voice dictation"
+          >
+            <div className="flex items-center gap-1.5 text-violet-700 font-extrabold text-xs">
+              <Mic className="w-3.5 h-3.5 animate-pulse text-violet-600" />
+              <span>Voice Mode • Whispr Flow</span>
+            </div>
+            <p className="text-[11px] text-body mt-1 leading-snug">
+              Speak answers hands-free and hear voice questions.
+            </p>
+          </a>
 
           <div className="flex items-center gap-3 bg-white p-3 rounded-2xl border border-slate-200/80 shadow-xs">
             <div

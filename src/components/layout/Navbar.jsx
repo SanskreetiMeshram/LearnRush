@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
-import { Sparkles, Settings, RotateCcw } from 'lucide-react';
+import { Sparkles, Settings, RotateCcw, Mic } from 'lucide-react';
 import { useProgress } from '../../context/ProgressContext.jsx';
 import XPBadge, { LevelBadge } from '../ui/XPBadge.jsx';
 import StreakBadge from '../ui/StreakBadge.jsx';
@@ -84,10 +84,19 @@ export default function Navbar() {
             ))}
           </nav>
 
-          {/* Desktop left greeting / status */}
-          <div className="hidden lg:flex items-center gap-2 text-sm font-bold text-body">
+          {/* Desktop left greeting & Voice-to-Voice pill */}
+          <div className="hidden lg:flex items-center gap-3 text-sm font-bold text-body">
             <span className="inline-block w-2 h-2 rounded-full bg-mint" aria-hidden="true" />
-            <span>Keep your curiosity growing every day!</span>
+            <a
+              href="https://wisprflow.ai/r?SANSKREETI1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-violet-50 text-violet-700 hover:bg-violet-100 border border-violet-200/80 transition-colors shadow-2xs group"
+              title="Voice-to-Voice powered by Whispr Flow"
+            >
+              <Mic className="w-3.5 h-3.5 text-violet-600 animate-pulse" />
+              <span>Voice-to-Voice • Whispr Flow</span>
+            </a>
           </div>
 
           {/* Live Badges & Mobile/Tablet Settings */}

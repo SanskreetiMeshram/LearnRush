@@ -15,6 +15,7 @@
   - 🧪 **Science** (Mint Green) — Physics, chemistry, biology, space, and the human body.
   - 🌍 **Geography** (Lavender Purple) — Capitals, continents, oceans, rivers, landmarks, and countries.
   - 🏛️ **History** (Warm Peach) — Ancient civilizations, world events, famous pioneers, and inventions.
+- **Interactive Voice-to-Voice Quiz Assistant:** Play completely hands-free! LearnRush speaks questions and answer choices aloud (Text-to-Speech), listens for your spoken answer using natural speech recognition (e.g. *"Option B"*, *"Mars"*), and delivers instant spoken voice feedback. Designed and powered by [Whispr Flow](https://wisprflow.ai/r?SANSKREETI1).
 - **Real-Time XP System:** Earn **+100 XP** immediately for every correct answer and **+10 XP** for every attempt.
 - **5-Tier Level Progression:** Climb from *Beginner* to *Knowledge Master* with animated progress bars and dynamic XP countdowns.
 - **Daily Learning Streak & Goal Ring:** Track consecutive days with at least one completed quiz alongside a 10-question daily goal SVG progress ring.
